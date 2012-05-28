@@ -4,7 +4,7 @@
 * Skrypt couch_mongo.rb pobiera dane z mongo i wrzuca je do couch db.
 
 # Działanie
-## Program crunchbase_data.rb Jako argument pierwszy przyjmuje plural_namespace, takie jak:
+Program crunchbase_data.rb Jako argument pierwszy przyjmuje plural_namespace, takie jak:
 
 * companies 
 * people 
@@ -22,7 +22,7 @@ Jako drugi argument przyjmuje namespace, takie jak:
 
 Jako trzeci argument opcjonalnie przyjmuje ilość dokumentów, w przypadku nie podania liczby (lub podania cyfry 0) pobiera wszystkie.
 
-## Program couch_mongo.rb przyjmuje jako argument nazwe kolecji do pobrania, czyli wymienione wcześniej plural_namespace
+Program couch_mongo.rb przyjmuje jako argument nazwe kolecji do pobrania, czyli wymienione wcześniej plural_namespace
 
 # Przykład użycia:
 	ruby ./crunchbase_data.rb companies company 10
