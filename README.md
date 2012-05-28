@@ -13,8 +13,10 @@ service-provider
 
 Oraz jako drugi argument przyjmuje permalink, czyli przykładowe użycie:
 
-ruby crunchbase_data.rb company facebook
+	ruby crunchbase_data.rb company facebook
 
 TODO: 
 	* pobranie wiekszej ilosci danych
 	* export danych do innej bazy NoSQL
+
+![alt text](http://i.imgur.com/WWLYo.gif "Frustrated cat can't believe this is the 12th time he's clicked on an auto-linked README.md URL")
