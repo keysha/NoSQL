@@ -4,20 +4,30 @@
 * Skrypt couch_mongo.rb pobiera dane z mongo i wrzuca je do couch db.
 
 # Działanie
-Jako argument pierwszy przyjmuje namespace, takie jak:
+## Program crunchbase_data.rb Jako argument pierwszy przyjmuje plural_namespace, takie jak:
 
-company
-person
-financial-organization
-product
-service-provider
+* companies 
+* people 
+* financial-organizations 
+* products 
+* service-providers
 
-Oraz jako drugi argument przyjmuje permalink, czyli przykładowe użycie:
+Jako drugi argument przyjmuje namespace, takie jak:
 
-	ruby crunchbase_data.rb company facebook
+* company
+* erson
+* financial-organization
+* product
+* service-provider
 
-TODO: 
-	* pobranie wiekszej ilosci danych
-	* export danych do innej bazy NoSQL
+Jako trzeci argument opcjonalnie przyjmuje ilość dokumentów, w przypadku nie podania liczby (lub podania cyfry 0) pobiera wszystkie.
 
-![alt text](http://i.imgur.com/WWLYo.gif "Frustrated cat can't believe this is the 12th time he's clicked on an auto-linked README.md URL")
+## Program couch_mongo.rb przyjmuje jako argument nazwe kolecji do pobrania, czyli wymienione wcześniej plural_namespace
+
+# Przykład użycia:
+	ruby ./crunchbase_data.rb companies company 10
+	ruby elastic_mongo.rb companies
+
+
+
+![alt text](http://i.imgur.com/WWLYo.gif)
