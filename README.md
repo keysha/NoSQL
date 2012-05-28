@@ -1,6 +1,7 @@
 # Technologie NoSQL
 
-Skrypt pobiera dane ze strony http://www.crunchbase.com/api oraz zapisuje je do bazy danych mongodb o nazwie "zaliczenie".
+* Skrypt crunchbase_data.rb pobiera dane ze strony http://www.crunchbase.com/api oraz zapisuje je do bazy danych mongodb o nazwie "zaliczenie".
+* Skrypt couch_mongo.rb pobiera dane z mongo i wrzuca je do couch db.
 
 # Działanie
 Jako argument pierwszy przyjmuje namespace, takie jak:
