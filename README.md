@@ -30,4 +30,4 @@ Program couch_mongo.rb przyjmuje jako argument nazwe kolecji do pobrania, czyli 
 
 
 
-![alt text](http://i.imgur.com/WWLYo.gif)
+![alt text](http://images.inquisitr.com/wp-content/2010/02/catgif11.gif)
